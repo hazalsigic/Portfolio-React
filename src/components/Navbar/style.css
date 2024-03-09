@@ -1,0 +1,13 @@
+.background {
+  background-color: rgb(115, 131, 108); 
+}
+
+.navbar-brand {
+  font-size: 25px !important;
+  color:  rgb(31, 41, 26) !important;
+  margin-left: 20px;
+}
+li {
+  margin: 20px;
+  margin-left: 30px;
+}

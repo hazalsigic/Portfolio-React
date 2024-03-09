@@ -1,0 +1,28 @@
+.card {
+  border: 6px solid white;
+  min-height: 400px;
+  width: 300px !important;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  display: flex;
+    align-items: center;
+}
+
+ul {
+  list-style: none;
+  align-items: flex-start !important;
+}
+
+
+.img-container {
+  width: 300px;
+  height: 200px;
+}
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.link {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
