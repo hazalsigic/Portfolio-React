@@ -52,7 +52,7 @@ const ContactForm = () => {
       method="POST"
     >
         <h3 style={{textAlign: 'center'}}>Contact form</h3>
-      <div style={{marginLeft: '30px'}} className="form-group col-sm-12 col-md-6 col-lg-6 mx-sm-3 mb-2">
+      <div style={{marginLeft: '30px'}} className="form-group col-sm-12 col-md-12 col-lg-12 mx-sm-3 mb-2">
         <input
           type="text"
           placeholder="Your name"
@@ -61,7 +61,7 @@ const ContactForm = () => {
           required
         />
       </div>
-      <div className="form-group ol-sm-12 col-md-6 col-lg-6 mx-sm-3 mb-2">
+      <div className="form-group ol-sm-12 col-md-12 col-lg-12 mx-sm-3 mb-2">
         <input
           type="email"
           placeholder="Email"
@@ -70,7 +70,7 @@ const ContactForm = () => {
           required
         />
       </div>
-      <div className="form-group ol-sm-12 col-md-6 col-lg-6 mx-sm-3 mb-2">
+      <div className="form-group ol-sm-12 col-md-12 col-lg-12 mx-sm-3 mb-2">
         <textarea
           placeholder="Your message"
           name="message"
