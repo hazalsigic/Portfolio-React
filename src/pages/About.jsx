@@ -5,15 +5,15 @@ import Pdf from '../assets/documents/hazal-resume.pdf'
 function About() {
   return (
     <div>
-      <div style={{ padding: "100px" }}>
-          <div className="p-3" size="md-12">
+      <div style={{ padding: "50px" }}>
+          <div className="p-md-3" size="md-12">
             <h1 style={{ color: "rgb(53, 55, 77)" }}>Hi there!</h1>
           </div>
           <div className="row">
             <div className="col-sm-12 col-md-3 col-lg-3">
               <img style={{ height: "350px", width: "320px", border: "3px solid rgb(255, 0, 179)"}} src="./src/assets/images/cv.jpg" alt="hazal-img" />
             </div>
-            <div className="col-sm-12 col-md-9 col-lg-9 text-md-end p-5">
+            <div className="col-sm-12 col-md-9 col-lg-9 text-md-end p-md-5">
             <p>My journey has been quite an adventure—beginning with political science,
                progressing into intelligence and security for my master's,
                 and unexpectedly leading me to manage a dog sitting business alongside an online pet accessories store.
