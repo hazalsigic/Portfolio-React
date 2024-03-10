@@ -4,7 +4,7 @@
 
 .navbar-brand {
   font-size: 25px !important;
-  color:  aliceblue !important;
+  color: white !important;
   margin-left: 20px;
 }
 .navbar li {
@@ -13,11 +13,11 @@
 }
 
 .navbar li a {
-  color: aliceblue;
+  color: white;
   margin: 20px;
   margin-left: 30px;
 }
 
 .navbar li a:hover {
-color: fuchsia !important;
+color: rgb(255, 0, 179) !important;
 }

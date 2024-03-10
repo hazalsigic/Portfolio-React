@@ -1,5 +1,5 @@
 .card {
-  border: 2px solid fuchsia;
+  border: 2px solid rgb(255, 0, 179);
   min-height: 400px;
   width: 300px !important;
   box-shadow: 0 0 2px 1px white, 0 0 10px 1px rgb(53, 55, 77);
@@ -10,7 +10,7 @@
 
 .card:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 2px 1px rgb(243, 3, 243), 0 0 10px 1px rgb(53, 55, 77);
+  box-shadow: 0 0 2px 1px rgb(255, 0, 179), 0 0 10px 1px rgb(53, 55, 77);
 }
 
 ul {

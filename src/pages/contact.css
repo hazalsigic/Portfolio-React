@@ -13,7 +13,7 @@ li {
 }
 
 .list-items a:hover {
-    color: fuchsia !important;
+    color: rgb(255, 0, 179) !important;
 }
 
 .list-items a:visited {

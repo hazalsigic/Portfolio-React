@@ -1,33 +1,29 @@
 import React from 'react';
+import Pdf from '../assets/documents/hazal-resume.pdf'
 
 
 function About() {
   return (
     <div>
-      <div style={{ margin: "100px" }}>
-          <div className="m-4" size="md-12 mx-5">
+      <div style={{ padding: "100px" }}>
+          <div className="p-3" size="md-12">
             <h1 style={{ color: "rgb(53, 55, 77)" }}>Hi there!</h1>
           </div>
           <div className="row">
             <div className="col-sm-12 col-md-3 col-lg-3">
-              <img style={{ height: "300px", width: "300px", border: "3px solid fuchsia"}} src="./src/assets/images/hazal.jpg" alt="hazal-img" />
+              <img style={{ height: "350px", width: "320px", border: "3px solid rgb(255, 0, 179)"}} src="./src/assets/images/cv.jpg" alt="hazal-img" />
             </div>
-            <div className="col-sm-12 col-md-9 col-lg-9">
+            <div className="col-sm-12 col-md-9 col-lg-9 text-md-end p-5">
+            <p>My journey has been quite an adventure—beginning with political science,
+               progressing into intelligence and security for my master's,
+                and unexpectedly leading me to manage a dog sitting business alongside an online pet accessories store.
+                But the plot thickens: I've recently embarked on a new path into the realm of front-end development through a bootcamp.
+                Learning HTML, CSS, Bootstrap, JavaScript, Node.js, testing, and React has been a thrilling rollercoaster ride. 
+                Weekends often turn into coding marathons. There's an undeniable rush in overcoming coding challenges that keeps me fully engaged. 
+            </p>
+            <br/>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              aliquet diam tortor, id consequat mauris ullamcorper eu. Orci
-              varius natoque penatibus et magnis dis parturient montes, nascetur
-              ridiculus mus. Pellentesque et dui id justo finibus sollicitudin
-              at et metus. Ut feugiat tellus nec metus commodo, sed suscipit
-              nisi gravida. Duis eget vestibulum quam, ut porttitor sem. Donec
-              sagittis mi sollicitudin turpis semper, et interdum risus
-              lobortis. Vestibulum suscipit nunc non egestas tristique. Proin
-              hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-              quam non, tristique tempor erat. Nullam non sem facilisis, tempus
-              tortor sit amet, volutpat nisl. Ut et turpis non nunc maximus
-              mollis a vitae tortor. Pellentesque mattis risus ac quam laoreet
-              cursus. Praesent suscipit orci neque, vestibulum tincidunt augue
-              tincidunt non. Duis consequat mattis tortor vitae mattis.
+            If you're interested in a detailed version of my career and educational background, you can find my CV  <a href = {Pdf} target = "_blank" class="text-reset">here</a>.
             </p>
           </div>
         </div>
