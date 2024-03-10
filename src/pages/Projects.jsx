@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import project from '../project.json';
+import project from '../project.js';
 import Card from '../components/Card';
 
 
