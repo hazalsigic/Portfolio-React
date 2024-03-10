@@ -1,41 +1,10 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = "https://herotofu.com/start"; // TODO - update to the correct endpoint
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const inputs = e.target.elements;
-    const data = {};
-
-    for (let i = 0; i < inputs.length; i++) {
-      if (inputs[i].name) {
-        data[inputs[i].name] = inputs[i].value;
-      }
-    }
-
-    fetch(FORM_ENDPOINT, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Form response was not ok');
-        }
-
-        setSubmitted(true);
-      })
-      .catch((err) => {
-        // Submit the form manually
-        e.target.submit();
-      });
-  };
+  }
 
   if (submitted) {
     return (
@@ -47,12 +16,12 @@ const ContactForm = () => {
   }
 
   return (
-    <form action={FORM_ENDPOINT}
+    <form action=""
       onSubmit={handleSubmit}
-      method="POST"
+      style={{marginLeft: '30px'}} 
     >
         <h3 style={{textAlign: 'center'}}>Contact form</h3>
-      <div style={{marginLeft: '30px'}} className="form-group col-sm-12 col-md-12 col-lg-12 mx-sm-3 mb-2">
+      <div className="form-group col-sm-12 col-md-12 col-lg-12 mb-2 mt-5">
         <input
           type="text"
           placeholder="Your name"
@@ -61,7 +30,7 @@ const ContactForm = () => {
           required
         />
       </div>
-      <div className="form-group ol-sm-12 col-md-12 col-lg-12 mx-sm-3 mb-2">
+      <div className="form-group ol-sm-12 col-md-12 col-lg-12 mb-2">
         <input
           type="email"
           placeholder="Email"
@@ -70,7 +39,7 @@ const ContactForm = () => {
           required
         />
       </div>
-      <div className="form-group ol-sm-12 col-md-12 col-lg-12 mx-sm-3 mb-2">
+      <div className="form-group ol-sm-12 col-md-12 col-lg-12 mb-2">
         <textarea
           placeholder="Your message"
           name="message"
@@ -78,7 +47,7 @@ const ContactForm = () => {
           required
         />
       </div>
-      <div className="form-group">
+      <div className="form-group text-center">
         <button
           className="btn btn-dark mb-2"
           type="submit"

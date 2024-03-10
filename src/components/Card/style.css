@@ -1,10 +1,16 @@
 .card {
-  border: 6px solid white;
+  border: 2px solid fuchsia;
   min-height: 400px;
   width: 300px !important;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 0 2px 1px white, 0 0 10px 1px rgb(53, 55, 77);
   display: flex;
     align-items: center;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 2px 1px rgb(243, 3, 243), 0 0 10px 1px rgb(53, 55, 77);
 }
 
 ul {

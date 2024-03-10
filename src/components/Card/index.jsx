@@ -18,7 +18,7 @@ function Card(props) {
         </li>
       </ul>
     </div>
-    <Link className="btn btn-outline-dark btn-md mt-auto mb-4" role="button" to={props.link}>Visit Website</Link>
+    <Link className="btn btn-outline-dark btn-md mt-auto mb-4" role="button" to={props.link} target="_blank">Visit Website</Link>
   </div>
   );
 }

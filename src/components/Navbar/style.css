@@ -1,13 +1,23 @@
 .background {
-  background-color: rgb(115, 131, 108); 
+  background-color: rgb(62, 64, 78); 
 }
 
 .navbar-brand {
   font-size: 25px !important;
-  color:  rgb(31, 41, 26) !important;
+  color:  aliceblue !important;
   margin-left: 20px;
 }
-li {
+.navbar li {
   margin: 20px;
   margin-left: 30px;
+}
+
+.navbar li a {
+  color: aliceblue;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.navbar li a:hover {
+color: fuchsia !important;
 }

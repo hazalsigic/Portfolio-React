@@ -4,11 +4,15 @@ import React from 'react';
 function About() {
   return (
     <div>
-      <div style={{ margin: 50 }}>
-          <div className="m-4" size="md-12">
-            <h1>Hi there!</h1>
+      <div style={{ margin: "100px" }}>
+          <div className="m-4" size="md-12 mx-5">
+            <h1 style={{ color: "rgb(53, 55, 77)" }}>Hi there!</h1>
           </div>
-          <div className="mx-3" size="md-12">
+          <div className="row">
+            <div className="col-sm-12 col-md-3 col-lg-3">
+              <img style={{ height: "300px", width: "300px", border: "3px solid fuchsia"}} src="./src/assets/images/hazal.jpg" alt="hazal-img" />
+            </div>
+            <div className="col-sm-12 col-md-9 col-lg-9">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               aliquet diam tortor, id consequat mauris ullamcorper eu. Orci
@@ -25,34 +29,8 @@ function About() {
               cursus. Praesent suscipit orci neque, vestibulum tincidunt augue
               tincidunt non. Duis consequat mattis tortor vitae mattis.
             </p>
-            <p>
-              Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum
-              porttitor. Sed malesuada molestie velit ac viverra. Quisque a
-              ullamcorper purus. Curabitur luctus mi ac mi hendrerit semper.
-              Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-              nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue
-              dictum egestas. Aliquam blandit mi eu urna scelerisque, vitae
-              volutpat ligula ultricies. Maecenas vel porta augue. Fusce mauris
-              ex, dignissim et lacinia ut, tempus eget nibh.
-            </p>
-            <p>
-              Etiam ut massa efficitur, gravida sapien non, condimentum sapien.
-              Suspendisse massa tortor, facilisis in neque sit amet, scelerisque
-              elementum tortor. Nullam eget nibh sit amet odio lobortis
-              ullamcorper. Nulla bibendum magna nec sem pulvinar lobortis.
-              Mauris et imperdiet urna, vitae lobortis dui. Nunc elementum elit
-              mi, non mattis enim congue at. Proin mi lectus, ullamcorper id
-              hendrerit eu, ultricies vitae lacus. Nunc vehicula, erat eget
-              laoreet condimentum, felis ante malesuada leo, nec efficitur diam
-              nisi eget nisi. Cras arcu lacus, tristique in bibendum vitae,
-              elementum eget lorem. Maecenas vestibulum volutpat orci eu
-              pharetra. Praesent vel blandit ante, nec faucibus libero. Sed
-              ultrices lorem ex, eu facilisis libero convallis ac. Vivamus id
-              dapibus eros. Nullam tempor sem rhoncus porta semper. Proin
-              bibendum vulputate nisl, fringilla interdum elit pulvinar eu.
-              Quisque vitae quam dapibus, vestibulum mauris quis, laoreet massa.
-            </p>
           </div>
+        </div>
       </div>
     </div>
   );
