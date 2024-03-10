@@ -11,7 +11,7 @@ function About() {
           </div>
           <div className="row">
             <div className="col-sm-12 col-md-6 col-lg-3">
-              <img style={{ height: "350px", width: "320px", border: "3px solid rgb(255, 0, 179)"}} src="/src/assets/images/cv.jpg" alt="hazal-img" />
+              <img style={{ height: "350px", width: "320px", border: "3px solid rgb(255, 0, 179)"}} src="../src/assets/images/cv.jpg" alt="hazal-img" />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-9 text-md-end p-lg-5">
             <p>My journey has been quite an adventure—beginning with political science,
