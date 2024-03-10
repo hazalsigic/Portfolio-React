@@ -1,6 +1,6 @@
 import React from 'react';
 import Pdf from '../assets/documents/hazal-resume.pdf'
-import Img from '../assets/images/cv.jpg'
+import Img from '../../public/images/cv.jpg'
 
 
 function About() {
